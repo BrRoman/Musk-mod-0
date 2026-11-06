@@ -1,0 +1,50 @@
+<mxfile host="65bd71144e">
+    <diagram id="BK1_lo69h--kwEcgPh_T" name="Ejercio 1">
+        <mxGraphModel dx="842" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9SbA1Tgu_kvVRzAZJ86T-4" edge="1" parent="1" source="9SbA1Tgu_kvVRzAZJ86T-1" style="edgeStyle=none;html=1;" target="9SbA1Tgu_kvVRzAZJ86T-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9SbA1Tgu_kvVRzAZJ86T-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Start" vertex="1">
+                    <mxGeometry height="80" width="80" x="40" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9SbA1Tgu_kvVRzAZJ86T-6" edge="1" parent="1" source="9SbA1Tgu_kvVRzAZJ86T-3" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9SbA1Tgu_kvVRzAZJ86T-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9SbA1Tgu_kvVRzAZJ86T-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="radio &amp;lt;-" vertex="1">
+                    <mxGeometry height="60" width="120" x="220" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="9SbA1Tgu_kvVRzAZJ86T-14" edge="1" parent="1" source="9SbA1Tgu_kvVRzAZJ86T-5" style="edgeStyle=none;html=1;strokeColor=light-dark(#000000,#006600);" target="9SbA1Tgu_kvVRzAZJ86T-13" value="True">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3X5uSAWCFTYp2UNwQIJG-1" edge="1" parent="1" source="9SbA1Tgu_kvVRzAZJ86T-5" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#990000);" target="9SbA1Tgu_kvVRzAZJ86T-17" value="False">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9SbA1Tgu_kvVRzAZJ86T-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="isNaN(radio)" vertex="1">
+                    <mxGeometry height="80" width="175" x="192.5" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="9SbA1Tgu_kvVRzAZJ86T-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="print(&quot;No es un número&quot;" vertex="1">
+                    <mxGeometry height="60" width="120" x="510" y="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="9SbA1Tgu_kvVRzAZJ86T-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="End" vertex="1">
+                    <mxGeometry height="80" width="80" x="700" y="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="9SbA1Tgu_kvVRzAZJ86T-20" edge="1" parent="1" source="9SbA1Tgu_kvVRzAZJ86T-17" style="edgeStyle=none;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="740" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9SbA1Tgu_kvVRzAZJ86T-17" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="print(&quot;La circunferencia es&quot; + (PI * radio * 2)" vertex="1">
+                    <mxGeometry height="60" width="175" x="190" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="9SbA1Tgu_kvVRzAZJ86T-19" edge="1" parent="1" source="9SbA1Tgu_kvVRzAZJ86T-13" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9SbA1Tgu_kvVRzAZJ86T-15">
+                    <mxGeometry relative="1" x="0.0791" as="geometry">
+                        <mxPoint x="800" y="1050" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
