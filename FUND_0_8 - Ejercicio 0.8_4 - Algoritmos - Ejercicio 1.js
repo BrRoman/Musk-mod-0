@@ -5,7 +5,7 @@ const readLine = require("readline-sync");
 /**
  * Esta función extrae las palabras repetidas de un texto.
  * @param {String} text - Un texto.
- * @returns {String[]} Un array con las palabras repetidas.
+ * @returns {Set} Un Set con las palabras repetidas.
  * @throws Un error si el param está vacío o si no contiene palabra.
  * @example
  * abc, def, ghi, abc, def, jkl
@@ -23,7 +23,7 @@ const repeatedWords = (text) => {
   );
   let output;
   if (repeated.length > 0) {
-    output = Array.from(new Set(repeated));
+    output = new Set(repeated);
   } else {
     output = [];
   }
@@ -32,7 +32,7 @@ const repeatedWords = (text) => {
 
 const input = readLine.question("Introduce un texto: ");
 try {
-  const output = repeatedWords(input);
+  const output = Array.from(repeatedWords(input));
   if (output.length > 0) {
     console.log(`Se repiten las siguientes palabras: ${output.join(", ")}.`);
   } else {
